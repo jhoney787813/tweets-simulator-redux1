@@ -6,9 +6,8 @@ export const getStateLocalStorage = ()=>
         return undefined;
     }
     else
-    {
-        JSON.parse(tweetsStorare);
-    }
+      return  JSON.parse(tweetsStorare);
+    
 }
 
 export const setStateLocalStorage=state=>

@@ -37,7 +37,6 @@ export default function FormAddTweet()
     {
         e.preventDefault();
          const {name,tweet}= formValue;
-
          if(!name||!tweet)
          {
             errorForm(true);
